@@ -6,18 +6,18 @@ Generate and control your web application interface with PageJS.
 Syntax
 ======
 
-Create a `PageJS object` for your app, to act as your front end control center. All html tags are supported as objects, and attributes for each tag objet are supported as proprties. Because DocumentJS prototyping supports the Observer Pattern, any changes made to the objects owned by `PageJS` will reflect on the page immediately. 
+Create a `PageJS object` for your app, to act as your front end control center. All html tags are supported as objects, and attributes for each tag objet are supported as proprties. Because PageJS utilized the Observer Pattern, any changes made to the objects owned by `PageJS` will reflect on the page in real-time, with no further action. 
 
-To get started, simply create an index.html page with nothing in it except script links to PageJS and your PageJS script.
+To get started, simply create an index.html page with nothing on it except script links to PageJS and your PageJS script.
 
 Index.html:
 
     <script src="Page.JS"></script>
-    <script src="MyDoc.JS"></script>
+    <script src="MyPage.JS"></script>
 
-MyDoc.js:
+MyPage.js:
 
-    Document = new PageJS({
+    Page = new PageJS({
 
         Head: new head({
 
@@ -102,9 +102,9 @@ You can build different models for the page and call them neatly wighin the `Pag
 
     });
     
-The `model object` simply acts as a container for elements and returns itself in html form through its method `html`.
+The `model object` simply acts as a container for elements and returns itself in html form.
 
-    Document.body.AppBody.ChatRoomWrapper = {
+    Page.body.AppBody.ChatRoomWrapper = {
     
       new div({
       
