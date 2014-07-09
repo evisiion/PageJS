@@ -8,7 +8,9 @@ Generate and control your web application interface with PageJS. This very light
 - Manipulate page structure quickly and dramatically.
 - Store page sections as Models for later use.
 
-PageJS's Easy-learn Syntax
+Because PageJS utilizes the Observer Pattern, any changes made to the document object happen on the page in real-time.
+
+Syntax
 ==========================
 
 Create a `PageJS object` for your app, to act as your front end control center. All html tags are supported as objects, and attributes for each tag objet are supported as proprties. Because PageJS utilized the Observer Pattern, any changes made to the objects owned by `PageJS` will reflect on the page in real-time, with no further action. 
