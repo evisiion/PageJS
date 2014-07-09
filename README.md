@@ -8,6 +8,7 @@ Generate and control your web application interface with PageJS. This very light
 - Manipulate page structure quickly and dramatically.
 - Store page sections as Models for later use.
 - Control the order in which elements are loaded.
+- Generate JSON format from exisiting HTML.
 
 Because PageJS utilizes the Observer Pattern, any changes made to the PageJS object happen on the page in real-time. Spend less time focusing on the HTML structure, and work on functionality. PageJS will allow you to build and maintain the user interface with minimal effort.
 
