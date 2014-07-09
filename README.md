@@ -1,14 +1,23 @@
-DocumentJS
+PageJS
 ==========
 
-Generate and control your web application interface with DocumentJS.
+Generate and control your web application interface with PageJS.
 
 Syntax
 ======
 
-Create a `document object` for your app, to act as your front end control center. All html tags and attributes are supported as objects, and the functionality works precisely as you'd expect it to. Because Air JS prototyping supports the Observer Pattern, any changes made to the objects owned by `document` will reflect on the page:
+Create a `PageJS object` for your app, to act as your front end control center. All html tags are supported as objects, and attributes for each tag objet are supported as proprties. Because DocumentJS prototyping supports the Observer Pattern, any changes made to the objects owned by `PageJS` will reflect on the page immediately. 
 
-    Document = new document({
+To get started, simply create an index.html page with nothing in it except script links to PageJS and your PageJS script.
+
+Index.html:
+
+    <script src="Page.JS"></script>
+    <script src="MyDoc.JS"></script>
+
+MyDoc.js:
+
+    Document = new PageJS({
 
         Head: new head({
 
@@ -78,7 +87,7 @@ Create a `document object` for your app, to act as your front end control center
 
     });
     
-You can build different models for the page and call them neatly wighin the Document object, or traverse through them as the user interacts with the page.
+You can build different models for the page and call them neatly wighin the `PageJS object`, or traverse through them as the user interacts with the page.
 
     Models.ChatRoom = new model({
 
