@@ -4,7 +4,7 @@ Introduction to PageJS
 Generate and control your web application interface with PageJS. This very lightweight interface framework allows developers to:
 
 - Build and generate any webpage with JavaScript.
-- Store HTML in JSON structure, for easy access.
+- Store HTML in JSON format to be called when needed.
 - Manipulate page structure quickly and dramatically.
 - Store page sections as Models for later use.
 
