@@ -94,7 +94,7 @@ MyPage.js:
 
     });
     
-Organize Interfaces into Models with PageJS
+Organize Interfaces into Models
 ===========================================
     
 You can build different models for the page and call them neatly wighin the `PageJS object`, or traverse through them as the user interacts with the page.
